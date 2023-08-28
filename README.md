@@ -1,70 +1,175 @@
-# Getting Started with Create React App
+  
+## TaskMaster by Team Decay of Angels
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+TaskMaster is a visually stunning task management web application developed by Team Decay of Angels. With an elegant and user-friendly interface crafted using CSS, TaskMaster brings you a delightful task management experience. Powered by the Dexie.js library for efficient frontend database management, this tool is tailored to help individuals, professionals, and teams streamline their task organization and boost productivity.
 
-In the project directory, you can run:
+![TaskMaster](homepage.png)
+  
+## Features
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Exquisite UI Design:**  Immerse yourself in TaskMaster's simple and intuitive user interface, meticulously designed for a seamless experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  
 
-### `npm test`
+- **User-friendly Interface:** TaskMaster boasts a user-friendly interface, ensuring ease of use and a short learning curve.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  
 
-### `npm run build`
+- **Effortless Task Management:** Create and delete tasks effortlessly and also define task titles and descriptions for each task.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Responsive Across Devices:** Experience the elegance of TaskMaster's design on any device, thanks to its responsive layout.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  
 
-### `npm run eject`
+- **Persistent Data Storage:** Utilizing Dexie.js, TaskMaster ensures your task data is consistently stored using IndexedDB, assuring data integrity and availability.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Create Workspaces:** Navigate to the "Create Workspace" tab to generate a new workspace. Define its details and attributes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Manage Subjects and Nodes:** Within each workspace, access subjects or topics to add more subjects or nodes for comprehensive organization.
 
-## Learn More
+  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Delete Workspaces and Subjects:** Maintain workspace cleanliness by removing unnecessary workspaces or subjects.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## TaskMaster by Decay Of Angels
+![TaskMaster](Screenshot1.png)
+![TaskMaster](Screenshot2.png)
+![TaskMaster](Screenshot3.png)
+## Installation
 
-### Code Splitting
+  
+Navigate to the project directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  
 
-### Analyzing the Bundle Size
+```bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  cd taskmaster
 
-### Making a Progressive Web App
+  npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
 
-### Advanced Configuration
+## Usage/Examples
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+1. Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
 
-### `npm run build` fails to minify
+  npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+
+2. Open your preferred web browser and go to http://localhost:3000 to access TaskMaster.
+
+3. Utilize the intuitive interface to manage tasks, create new ones, prioritize, and make updates.
+
+## FAQ
+
+#### How do I create a new workspace?
+
+ In the "Workspace" tab, you can enter details for a new workspace.
+
+  
+
+#### Can I add multiple subjects within a workspace?
+
+Yes, once you've created a workspace, you will be greeted at the subjects section and there you can add as many subjects or topics as you need.
+
+  
+
+#### Then what is the Tasks Section?
+
+The Tasks Section is your actual Todo List where you will store all the topic details. The 3 layered structure of TaskMaster provides you an efficient way of organizing your to do components.
+
+  
+
+#### How can I delete a workspace or subject?
+
+ In the workspace or subject settings, you'll find options to delete them as needed.
+
+
+
+## Future Plans
+
+This is the release version of TaskMaster v1 
+
+We will be adding the Attendance Feature in the Topics/Subjects Section in Version 1.1 and then in Version 1.2, we will be adding many different features like Priority Managing for Tasks.
+
+Likewise we will keep adding small features and changes in the following versions along with some major updates to the UI in Versions 1.3, 1.4, 1.5 and 1.6 
+
+After Version 1.6, comes Version 2.0 which will be the Super Saiyan Transformation of TaskMaster.
+
+There we will be implementing the User Authentication System and also another cool feature - A cloud based files uploading system in the Tasks section which will make the life of Students a lot easier as they will be able to keep all their important documents safe in one place,
+
+So join us in our journey and keep supporting our endeavors!
+
+## Contributing
+
+
+Fork the TaskMaster repository on GitHub.
+
+Clone your forked repository to your local machine.
+
+Create a new branch for your feature or bug fix:
+
+  
+```bash
+
+git checkout -b feature/my-new-feature
+
+```
+
+Commit your changes and push them to your forked repository.
+
+Open a Pull Request, providing comprehensive insights into your changes and their positive impact.
+
+  
+
+## License
+
+This project is licensed under the MIT License, embracing collaboration and open-source contributions.
+
+
+
+## Acknowledgements
+
+ We would like to extend our heartfelt gratitude to the individuals and resources that have contributed to the creation and success of TaskMaster by Team Decay of Angels. Your support, inspiration, and dedication have played a significant role in shaping this project.
+
+
+## Contributors
+
+  
+- Sammya Bhattacharya  #ProjectLead  #LeadDeveloper
+
+- Partha Basak #Designer
+
+- Ankush Panda #ResourceManager
+
+- Soumalya Mukherjee 
+
+  
+
+## Libraries and Tools
+
+  
+Our project would not have been possible without the incredible libraries and tools that power it:
+
+  
+
+- React - For building the frontend interface of TaskMaster.
+
+- Dexie.js - For seamless database management within the application.
+
+  
+With deep appreciation,
+#### Team Decay Of Angels
