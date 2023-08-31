@@ -15,7 +15,7 @@ export const TodoItem = ({ todo, onDelete }) => {
 
   return (
     <div style={{width: "40%"}}>
-      <ul style={{border: "2px solid black"}}>
+      <ul style={{border: "2px solid aqua", borderRadius:"20px"}}>
         <li className="item p-3" >
           <h5>{todo.title}</h5>
           <p>{todo.desc}</p>

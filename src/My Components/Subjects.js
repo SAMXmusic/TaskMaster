@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Subject } from "./Subject";
 import Dexie from "dexie";
 import { useParams } from "react-router-dom";
+import "./Subject.css";
 
 const db = new Dexie("TaskMasterDatabase");
 db.version(1).stores({
@@ -17,7 +18,7 @@ export const Subjects = ({ onDelete, subjects }) => {
   // }, []);
 
   return (
-    <div className="container my-3" style={{ minHeight: "70vh" }}>
+    <div className="container my-3">
       <h3 className="text-center"> Subjects </h3>
 
       {subjects.length === 0

@@ -1,4 +1,6 @@
-  
+# Welcome to the Version 1.1 of TaskMaster
+
+
 ## TaskMaster by Team Decay of Angels
 
 
@@ -101,11 +103,9 @@ The Tasks Section is your actual Todo List where you will store all the topic de
 
 ## Future Plans
 
-This is the release version of TaskMaster v1 
+We will be adding the Attendance Feature in the Topics/Subjects Section in Version 1.2 and then in Version 1.3, we will be adding many different features like Priority Managing for Tasks.
 
-We will be adding the Attendance Feature in the Topics/Subjects Section in Version 1.1 and then in Version 1.2, we will be adding many different features like Priority Managing for Tasks.
-
-Likewise we will keep adding small features and changes in the following versions along with some major updates to the UI in Versions 1.3, 1.4, 1.5 and 1.6 
+Likewise we will keep adding small features and changes in the following versions along with some minor updates to the UI in Versions 1.4, 1.5 and 1.6 
 
 After Version 1.6, comes Version 2.0 which will be the Super Saiyan Transformation of TaskMaster.
 
@@ -149,11 +149,11 @@ This project is licensed under the MIT License, embracing collaboration and open
 ## Contributors
 
   
-- Sammya Bhattacharya  #ProjectLead  #LeadDeveloper
+- Sammya Bhattacharya #LeadDeveloper
 
-- Partha Basak #Designer
+- Partha Basak #DesignLead
 
-- Ankush Panda #ResourceManager
+- Ankush Panda
 
 - Soumalya Mukherjee 
 

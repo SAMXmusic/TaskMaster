@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import "./AddTopics.css";
 export const AddTopic = (props) => {
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
@@ -17,8 +17,8 @@ export const AddTopic = (props) => {
 
   return (
     <div
-      className="container my-3 py-3"
-      style={{ border: " 4px dashed", textAlign: "left", backgroundColor: "white" }}
+      className="add_topic_container container my-3 py-3"
+      
     >
       <h3 className="text-center">
         Create New WorkSpace{" "}
@@ -53,7 +53,7 @@ export const AddTopic = (props) => {
             id="desc"
           />
         </div>
-        <button type="submit" className="btn btn-sm btn-success">
+        <button type="submit" className="btn btn-sm btn-success" style={{float:"left", color:"green", backgroundColor:"white"}}>
           Create
         </button>
       </form>

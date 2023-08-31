@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Footer.css"
 
 export const Footer = () => {
   // let footerStyle = {
@@ -8,7 +9,7 @@ export const Footer = () => {
   //   border: "2px solid grey"
   // }
   return (
-    <footer className="bg-dark text-light py-2">
+    <footer>
       <p className="text-center">
       Copyright &copy; Task Master Developer Team
       </p>

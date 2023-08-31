@@ -1,4 +1,5 @@
 import React from "react";
+import "./About.css";
 
 export const About = () => {
   return (
@@ -9,7 +10,7 @@ export const About = () => {
         Angels. Our mission is to provide individuals, professionals, and teams
         with an intuitive and elegant task management solution that enhances
         productivity and organization.
-        <ul>
+        <ul className="about_box">
           <li>
             <h5 className="my-3">Our Vision</h5>
             At Team Decay of Angels, we believe that effective task management

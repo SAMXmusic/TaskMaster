@@ -1,0 +1,66 @@
+.navbar{
+    background-image: url("./av5.jpg");
+    background-size: cover;
+    background-repeat:  no-repeat;
+    border: 3px solid rgb(3, 255, 234);
+    border-radius: 20px;
+    padding-top: 83vh;
+    
+  
+    
+    
+}
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    border: 1px solid rgb(0, 255, 234);
+    border-radius: 10px;
+    
+}
+.container-fluid{
+ 
+    padding-left: 40px;
+    row-gap: 20px;
+    
+}
+.navbar-toggler{
+    color: white;
+}
+.navbar-brand{
+    color:aqua;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+/* .mylist{
+    row-gap: 10px;
+    display: flex;
+    flex-direction:row;
+    text-decoration: none;
+    padding-left: 20px;
+} */
+.mylist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+.nav-item {
+    float: left;
+    column-width: 120px;
+  }
+  
+  li a {
+    width: auto;
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 16px;
+    text-decoration: none;
+    margin-left:10px;
+
+  }

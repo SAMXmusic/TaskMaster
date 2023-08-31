@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Dexie from "dexie";
+import "./Topic.css";
 
 const db = new Dexie("TaskMasterDatabase");
 db.version(1).stores({
@@ -16,7 +17,7 @@ export const Topic = ({ topic, onDelete }) => {
 
   return (
     <div style={{ width: "80%" }}>
-      <div className="card m-4" >
+      <div className="card m-4" style={{width:"80vw"}}>
         <div className="card-body">
           <h4 className="card-title">{topic.title}</h4>
           <p className="card-text">{topic.desc}</p>
@@ -28,9 +29,9 @@ export const Topic = ({ topic, onDelete }) => {
           </Link>
 
           <button
-            className="btn btn-small"
+            className="btn btn-small" style={{float:"right", color:"red"}}
             onClick={handleDelete}
-            style={{color: "#FFA07A",float: "right" }}
+            
           >
             {" "}
             Remove

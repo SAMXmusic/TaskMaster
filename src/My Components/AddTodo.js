@@ -17,7 +17,7 @@ export const AddTodo = (props) => {
   };
   return (
     <div className="container my-3 py-3"
-    style={{ border: " 4px dashed green", textAlign: "left", backgroundColor: "white" }}>
+    style={{ border: " 2px solid aqua", textAlign: "left", backgroundColor: "#292929", borderRadius:"25px", color:"white" }}>
       
       <h3 className="text-center">
         Create New Topic <h6>(Subjects for School and College)</h6>

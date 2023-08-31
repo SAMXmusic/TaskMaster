@@ -1,0 +1,15 @@
+.card{
+    background-color: rgb(41, 41, 41);
+    border: 2px solid aqua;
+    border-radius: 20px;
+    width: 80vw;
+}
+/* .btn{
+    color: red;
+    float : right;
+    border: 2px solid aqua;
+}
+.btn:hover{
+    color: rgb(255, 255, 255);
+
+} */

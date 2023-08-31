@@ -12,6 +12,9 @@ import { Topics } from "./My Components/Topics";
 import { AddSubject } from "./My Components/AddSubject";
 import { Subjects } from "./My Components/Subjects";
 
+// import { AddAttend } from "./My Components/AddAttend";
+// import { Attendance } from "./My Components/Attendance";
+
 import { AddTodo } from "./My Components/AddTodo";
 import { Todos } from "./My Components/Todos";
 
@@ -105,6 +108,34 @@ function App() {
     setTodos(todos.filter(e => e !== todo));
     db.todos.delete(todo.sno);
   };
+
+  // Here begins the Attendance Commands
+  // Todos = Attend 
+  // Todo = Aten
+  // const addAten = (atp, atn, subjectid) => {
+  //   const sno = attend.length === 0 ? 0 : attend[attend.length - 1].sno + 1;
+  //   const myAttend = {
+  //     sno: sno,
+  //     atp: atp,
+  //     atn: atn,
+  //     subjectId: subjectid
+  //   };
+  //   setAttend([...attend, myAttend]);
+  //   db.attend.add(myAttend); // Store in Dexie
+  // };
+
+  // const [attend, setAttend] = useState([]);
+
+  // useEffect(() => {
+  //   db.attend.toArray().then(savedAttend => {
+  //     setAttend(savedAttend);
+  //   });
+  // }, []);
+
+  // const onDeleteAten = (aten) => {
+  //   setAttend(attend.filter(e => e !== aten.sno));
+  //   db.attend.delete(aten.sno);
+  // };
  
   return (
     <div>
@@ -142,7 +173,16 @@ function App() {
             }
           ></Route>
 
-          <Route exact path="/attendance" element={<About/>}></Route>
+          {/* <Route exact
+            path="/subjects/:subjectId/attend"
+            element={
+              <div>
+                <AddAttend addAten={addAten} />
+                <Attendance attend={attend} onDelete={onDeleteAten} />
+              </div>
+            }
+          ></Route> */}
+
           <Route exact path="/about" element={<About/>}></Route>
         </Routes>
 

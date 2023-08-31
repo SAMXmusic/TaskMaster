@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(41, 41, 41);
+}
+
+.title-word-1 {
+    color: rgb(57, 247, 204);
+
+}
+
+.title {
+    background-color: rgb(43, 43, 43);
+    border-radius: 30px;
+    border: 2px solid rgb(0, 255, 255);
+
+    color: white;
+}
+
+.title-word-2 {
+    color: chartreuse;
+}
+
+.title-word-3 {
+    color: rgb(255, 0, 157);
+}
+
+.main_text {
+    font-family:monospace;
+    font-weight: bolder;
+    text-shadow:
+    0 0 67px #ffffff9d,
+    0 0 710px #ffffffb9,
+    0 0 71px #fff,
+    0 0 72px #0fa,
+    0 0 82px rgba(0, 255, 170, 0.685),
+    0 0 92px rgba(0, 255, 170, 0.692),
+    0 0 102px rgba(0, 255, 170, 0.658),
+    0 0 151px rgba(0, 255, 170, 0.733);
+}
+.card2{
+    background-color: black;
+    border-radius: 30px;
+    border:1px solid aqua;
+    height: 250px;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(42, 240, 240);
+    padding-bottom: 20px;
+}
+.card-body{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: white;
+}
+.btn{
+    border: 1px solid aqua;
+    font-weight: bold;
+    /* animation-duration: 500ms; */
+    transition-duration: 500ms;
+
+}
+.btn:hover{
+    /* border-color: white; */
+    background-color: aqua;
+    transition-duration: 500ms;
+}

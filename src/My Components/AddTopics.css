@@ -1,0 +1,9 @@
+.add_topic_container{
+    border: 2px solid aqua;
+    text-align: left;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    height: 300px;
+    
+}

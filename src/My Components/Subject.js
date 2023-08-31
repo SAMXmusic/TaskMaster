@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Dexie from 'dexie';
+import "./Subject.css";
 
 const db = new Dexie('TaskMasterDatabase');
 db.version(1).stores({

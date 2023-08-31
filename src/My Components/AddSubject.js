@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
+import "./AddSubject.css";
 
 export const AddSubject = (props) => {
   const { topicId } = useParams();
@@ -20,9 +21,11 @@ export const AddSubject = (props) => {
     <div
       className="container my-3 py-3"
       style={{
-        border: " 4px dashed green",
+        border: " 2px solid aqua",
         textAlign: "left",
-        backgroundColor: "white",
+        backgroundColor: "black",
+        borderRadius:"20px",
+        color:"white"
       }}
     >
       <h3 className="text-center">

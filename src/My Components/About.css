@@ -1,0 +1,20 @@
+.About{
+    color:white
+}
+
+.about_box{
+    border: 2px solid aqua;  
+    padding: 20px;
+    padding-left: 30px; 
+    border-radius: 25px;
+    margin: 20px;
+
+}
+.my-2{
+    color: aqua;
+    font-weight: bold;
+    text-decoration: underline;
+}
+h5{
+    color: rgb(0, 255, 255);
+}

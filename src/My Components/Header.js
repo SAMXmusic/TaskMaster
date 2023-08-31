@@ -1,11 +1,11 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import NavbarBGImgURL from './NavFinal.svg'
-
+// import NavbarBGImgURL from './NavFinal.svg'
+import "./Header.css"
 export default function Header(props) {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-success bs-success-border-subtle" style={{paddingTop: "60vh", border: "2px solid black", backgroundImage: `url("${NavbarBGImgURL}")`, backgroundSize: "cover", backgroundRepeat: "no-repeat"}}>
+      <nav className="navbar navbar-expand-lg bg-body-success bs-success-border-subtle">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">{props.title}</Link>
           <button
@@ -20,7 +20,7 @@ export default function Header(props) {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul className="mylist">
               {/* <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/">
                   Home
